@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Atividade 1</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    .menu-option {
+      background-color: #f1f1f1;
+      padding: 1.5rem;
+      margin-bottom: 1rem;
+      text-align: center;
+      border-radius: 0.5rem;
+      cursor: pointer;
+    }
+
+    .quadrado {
+      background-color: #74b9ff;
+      aspect-ratio: 1 / 1;
+      width: 100%;
+      border-radius: 0.5rem;
+    }
+
+    .conteudo {
+      background-color: #dfe6e9;
+      padding: 1.5rem;
+      border-radius: 0.5rem;
+      margin-top: 1rem;
+    }
+
+    .altura-total {
+      min-height: 100vh;
+    }
+  </style>
+</head>
+<body>
+
+<div class="container py-4">
+  <div class="row altura-total align-items-start">
+
+    <div class="col-12 col-md-6">
+      <div class="menu-option">Opção 1</div>
+      <div class="menu-option">Opção 2</div>
+      <div class="menu-option">Opção 3</div>
+    </div>
+
+    <div class="col-12 col-md-6">
+      <div class="quadrado mb-3"></div>
+      <div class="conteudo">
+        <h4>Conteúdo Relacionado</h4>
+        <p>Texto, gráficos ou qualquer outro conteúdo aqui embaixo.</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>
